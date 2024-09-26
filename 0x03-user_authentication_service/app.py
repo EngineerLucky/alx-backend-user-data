@@ -13,7 +13,6 @@ AUTH = Auth()
 
 @app.route("/", methods=["GET"], strict_slashes=False)
 def index() -> str:
-    
     """GET /
     Return:
         - The home page's payload.
